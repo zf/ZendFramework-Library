@@ -17,7 +17,7 @@
  * @subpackage Value
  * @copyright  Copyright (c) 2005-2010 Zend Technologies USA Inc. (http://www.zend.com)
  * @license    http://framework.zend.com/license/new-bsd     New BSD License
- * @version    $Id: BigInteger.php 20785 2010-01-31 09:43:03Z mikaelkael $
+ * @version    $Id: BigInteger.php 23584 2010-12-28 19:51:49Z matthew $
  */
 
 
@@ -54,9 +54,9 @@ class Zend_XmlRpc_Value_BigInteger extends Zend_XmlRpc_Value_Integer
     }
 
     /**
-     * Return bigint value object
+     * Return bigint value
      *
-     * @return Zend_Crypt_Math_BigInteger
+     * @return string
      */
     public function getValue()
     {
